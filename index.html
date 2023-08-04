@@ -3,52 +3,74 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Brewing Crew Cafe</title>
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="container">
         <ul>
           <li>
             <h1>BrewCrew</h1>
           </li>
           <li>
-            <img src="/images/pin.png" />
+            <img src="/images/pin.png" class="logo-img" />
+          </li>
+          <li class="align-right">
+            <img src="/images/burger.png" class="menu-nav" />
           </li>
         </ul>
       </nav>
     </header>
-    <div>
-      <h1>Why not working while we brew for ya</h1>
+    <div class="hero">
+      <h1 class="container"
+        >You take care of your things, <br />while we brew for ya</h1
+      >
     </div>
     <main>
-      <section>
-        <div>
-          <img src="images/sky-garden.jpg" />
+      <section class="item">
+        <div class="item-heading">
+          <img class="main-img" src="images/sky-garden.jpg" />
+          <div class="img-banner"> Best deal </div>
         </div>
-        <div>
+        <div class="container caption">
           <p>Need extra energy? Take a siesta at the Sky Garden.</p>
-          <button>Book</button>
+          <button class="book-btn">Book</button>
         </div>
       </section>
-      <section>
-        <div>
-          <img src="images/hygge.jpg" />
+      <section class="item">
+        <div class="item-heading">
+          <img class="main-img" src="images/hygge.jpg" />
         </div>
-        <div>
+        <div class="container caption">
           <p>Relax in the Hygge lounge</p>
-          <button>Book</button>
+          <button class="book-btn">Book</button>
         </div>
       </section>
-      <section>
-        <div>
-          <img src="images/work-cafe.jpg" />
+      <section class="item">
+        <div class="item-heading">
+          <img class="main-img" src="images/work-cafe.jpg" />
         </div>
-        <div>
-          <p>Stop and go, your essecntial daily dose of need for work. </p>
-          <button>Book</button>
+        <div class="container caption">
+          <p>Stop and go, your essential daily dose of need for work. </p>
+          <button class="book-btn">Book</button>
         </div>
       </section>
+      <div class="chat-box">
+        <img class="msg-img" src="images/message.png" />
+      </div>
     </main>
+    <footer>
+      <div class="container">
+        <h1>Contact us</h1>
+        <h3>BrewCrew@mail.com</h3>
+      </div>
+    </footer>
   </body>
 </html>

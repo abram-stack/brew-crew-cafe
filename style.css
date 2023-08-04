@@ -1,0 +1,99 @@
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+header, footer{
+  background: #282828;
+  color: whitesmoke;
+  padding: 1.2em 0;
+}
+
+.logo-img, .menu-nav{
+  width: 40px;
+}
+.align-right{
+  margin-left: auto;
+}
+.main-img{
+  width: 100%;
+  display: block;
+}
+/* TYPOGRAPHY */
+h1, h3{
+  margin: 0;
+}
+.caption p{
+  font-size: 1.2rem;
+}
+footer h1{
+  font-size: 1rem;
+}
+
+
+
+nav ul{
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+
+/* LAYOUT */
+.container{
+  margin: 0 40px;
+}
+.hero{
+  padding: 1.7em 0;
+}
+.item{
+  margin-bottom: 1.5em;
+}
+.caption{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.book-btn{
+  padding: .5em 1.5em;
+  background: #CD6858;
+  color: whitesmoke;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  align-self: center;
+  border-radius:5px;
+}
+
+.chat-box{
+  width: 60px;
+  height: 60px;
+  background: #CD6858;
+  border-radius: 50%;
+  display: flex;
+  box-shadow: 1px 1px 5px #999 ;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+
+}
+
+.msg-img{
+  margin: auto;
+  width: 50%;
+}
+.item-heading{
+  position: relative;
+}
+.img-banner{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  padding:10px 15px;
+  background: #CD6858;
+  color: whitesmoke;
+}
